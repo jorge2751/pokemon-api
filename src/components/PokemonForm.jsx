@@ -42,7 +42,6 @@ const PokemonForm = () => {
                     <h1> Fetch the Pokemon list!</h1>
             }
         </div>
-
     )
 }
 
