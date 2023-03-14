@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import DisplayPokemon from './DisplayPokemon'
+import DisplayPokemonList from './DisplayPokemonList'
 import axios from "axios"
 
 const PokemonForm = () => {
@@ -38,7 +38,7 @@ const PokemonForm = () => {
             <button onClick={fetchPokemonAxios}> Fetch Pokemon list with axios</button>
             {
                 pokemonList ?
-                    <DisplayPokemon pokemonList={pokemonList} /> :
+                    <DisplayPokemonList pokemonList={pokemonList} /> :
                     <h1> Fetch the Pokemon list!</h1>
             }
         </div>

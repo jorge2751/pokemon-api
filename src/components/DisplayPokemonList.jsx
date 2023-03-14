@@ -1,6 +1,6 @@
 import React from 'react'
 
-const DisplayPokemon = (props) => {
+const DisplayPokemonList = (props) => {
 
     const {pokemonList} = props
     return (
@@ -16,4 +16,4 @@ const DisplayPokemon = (props) => {
     )
 }
 
-export default DisplayPokemon
+export default DisplayPokemonList
